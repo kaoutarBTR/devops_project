@@ -8,7 +8,7 @@ terraform/.terraform/
 terraform/terraform.tfstate
 terraform/terraform.tfstate.backup
 terraform/.terraform.lock.hcl
-
+terraform/.terraform/providers/registry.terraform.io/hashicorp/azurerm/4.57.0/windows_amd64/terraform-provider-azurerm_v4.57.0_x5.exe
 # Ansible
 ansible/__pycache__/
 ansible/*.retry
