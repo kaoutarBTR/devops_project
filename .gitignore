@@ -1,13 +1,15 @@
 # Node
-node_modules/
+app/node_modules/
 
 # Terraform
-.terraform/
-terraform.tfstate
-terraform.tfstate.backup
+terraform/.terraform/
+terraform/terraform.tfstate
+terraform/terraform.tfstate.backup
 
 # Logs
 npm-debug.log*
 
 # Windows
 *.exe
+
+package-lock.json
