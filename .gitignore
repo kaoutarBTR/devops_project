@@ -1,15 +1,30 @@
-# Node
+# Node.js
 app/node_modules/
+app/*.log
+app/package-lock.json
 
 # Terraform
 terraform/.terraform/
 terraform/terraform.tfstate
 terraform/terraform.tfstate.backup
+terraform/.terraform.lock.hcl
+
+# Ansible
+ansible/__pycache__/
+ansible/*.retry
+
+# Docker
+*.dockerfile
+Dockerfile
+
+# Windows / OS
+*.exe
+*.dll
+*.DS_Store
+Thumbs.db
 
 # Logs
 npm-debug.log*
 
-# Windows
-*.exe
-
-package-lock.json
+# Git
+.gitignore
