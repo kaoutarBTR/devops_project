@@ -1,0 +1,13 @@
+# Node
+node_modules/
+
+# Terraform
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+
+# Logs
+npm-debug.log*
+
+# Windows
+*.exe
